@@ -37,6 +37,6 @@
     (insert "}")
     (indent-according-to-mode)
     (previous-line)
-    (back-to-indentation)))
+    (indent-according-to-mode)))
 
 (provide 'brace-mirror)
